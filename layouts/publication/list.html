@@ -1,0 +1,70 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $pubs := .Site.Data.publications }}
+    <section  class="home-section hs-research-news  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+        <div class="container page-publications" >
+            <div class="perprint">
+                <div class="title-center">Preprint</div>
+                <div>
+                    <ul>
+                        {{ range $index, $item := $pubs.preprint.lists }}
+                            <li>
+                                <div>{{ $item.article | markdownify | emojify | safeHTML }}</div>
+                                <div>{{ $item.description | markdownify | emojify | safeHTML }}</div>
+                                {{ if $item.image }}
+                                    <div class="pub-image">
+                                        <img style="" src="{{ $item.image | relLangURL  }}"/>
+                                    </div>
+                                {{ end }}
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="recent_years">
+                {{ range $index, $item := $pubs.recent_years }}
+                    <div class="year-name"> {{ $item.year | markdownify | emojify | safeHTML }}: </div>
+                    <ul>
+                        {{ range $index, $item2 := $item.lists }}
+                            <li>
+                                <div>{{ $item2.article | markdownify | emojify | safeHTML }}</div>
+                                <div>{{ $item2.description | markdownify | emojify | safeHTML }}</div>
+                                {{ if $item2.image }}
+                                    <div class="pub-image">
+                                        <img style=" " src="{{ $item2.image | relLangURL  }}"/>
+                                    </div>
+                                {{ end }}
+                            </li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </div>
+
+            <div class="before-zju">
+                <div class="bz-title">Before ZJU</div>
+                {{ range $index, $item := $pubs.before_zju }}
+                    <div class="year-name"> {{ $item.year | markdownify | emojify | safeHTML }}: </div>
+                    <ul>
+                        {{ range $index, $item2 := $item.lists }}
+                            <li>
+                                <div>{{ $item2.article | markdownify | emojify | safeHTML }}</div>
+                                <div>{{ $item2.description | markdownify | emojify | safeHTML }}</div>
+                                {{ if $item2.image }}
+                                    <div class="pub-image">
+                                        <img style="max-width: 100%;" src="{{ $item2.image | relLangURL  }}"/>
+                                    </div>
+                                {{ end }}
+                            </li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+            </div>
+        </div>
+
+    </section>
+
+
+{{ end }}

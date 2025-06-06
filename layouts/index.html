@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section  class="home-section hs-research-news  container-fluid ">
+  {{ partial "common/subtitle-section.html" . }}
+
+
+  <div class="container">
+
+    <div class="home-main-text" style="font-size: 1.3rem; padding-bottom: 4rem;">
+
+      <p style="padding: 4rem 0;">Welcome to the 2D Quantum Materials Lab led by Prof. Yanhao Tang at Zhejiang university!</p>
+      {{/*<div style="height: 1rem; width: 1px;"></div>*/}}
+
+
+      <p>
+      Our group focuses on discovering emergent quantum phenomena and novel device architectures in 2D van der Waals materials. By developing advanced characterization techniques such as femtosecond pump-probe spectroscopy, low-frequency inelastic scattering, and nonlinear optics, combined with multiple control knobs such as hydrostatic pressure, magnetic field, and electrostatic gating, we aim to decode fundamental quantum behaviors and their potential applications.
+      </p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <img style="width: 100%;margin-top: 3.5rem;" src="{{ "images/news/news-home.jpg" | relLangURL  }}"/>
+      </div>
+
+      <div class="col-12  col-md-6">
+        {{ partial "common/home-news.html" . }}
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+{{ end }}

@@ -1,0 +1,96 @@
+## publications list
+
+preprint:
+  lists:
+    - article: "**Yanhao Tang**, Mersedeh Saniepay, Chenjia Mi, Rémi Beaulac, John A. McGuire, “Optical Stark metrology of CdSe quantum dots: Reconciling the size-dependent oscillator strength with theory”, arXiv:1703.00530 (2017)."
+      description:
+      image:
+
+recent_years:
+
+  - year: 2025
+    lists:
+      - article: "**Chenran Xu**†, **Chen Xu**†, Jichen Zhou, Zhexu Shan, Wenjian Su, Wenbing Li, Xingqi Xu, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Da-Wei Wang and **Yanhao Tang**⁎, “Gate-tunable hot electron extraction in a two-dimensional semiconductor heterojunction”, <em>**Nano Letters**</em> (accepted), arXiv:2504.05859 (2025)."
+        description: "**We demonstrated the exciton-electron interaction as a novel strategy of harvesting excess energy of hot carriers in TMD heterostructure**."
+        image: "images/publications/p25-1.png"
+
+
+  - year: 2023
+    lists:
+      - article: "**Yanhao Tang**, “Exotic states in moiré superlattices of twisted semiconducting transition metal dichalcogenides”, Acta Phys. Sin., 2023, 72(2): 027802."
+        description: "A review about the electronic correlated states in TMDs moire materials."
+        image:
+
+
+  - year: 2022
+    lists:
+      - article: "**Yanhao Tang**, Kaixiang Su , Lizhong Li, Yang Xu, Song Liu, Kenji Watanabe, Takashi Taniguchi, James Hone, Chao-Ming Jian, Cenke Xu, Kin Fai Mak, Jie Shan, “Evidence of frustrated magnetic interactions in a Wigner-Mott insulator”, <em>**Nature Nanotechnology**</em> (accepted), arXiv:2204.08148 (2022)."
+        description: "**We observed strongly suppressed antiferromagnetic interaction at 2/3 filling of moire superlattices**. "
+        image: "images/publications/p22-1.png"
+
+      - article: "**Yanhao Tang**†, ⁎, Jie Gu†, Song Liu, Kenji Watanabe, Takashi Taniguchi, James C Hone, Kin Fai Mak⁎, Jie Shan⁎, “Dielectric catastrophe at the Wigner-Mott transition in a moiré superlattice”, <em>**Nature Communications**</em>, 13, 4271 (2022)."
+        description: "We achieved continuous U/t driven Wigner transitions in moire superlattices via external electric field. "
+        image: "images/publications/p22-2.png"
+
+      - article: "Saien Xie⁎, Brendan D. Faeth, **Yanhao Tang**, Lizhong Li, Eli Gerber, Christopher T. Parzyck, Debanjan Chowdhury, Ya-Hui Zhang, Christopher Jozwiak, Aaron Bostwick, Eli Rotenberg, Eun-Ah, Kim, Jie Shan, Kin Fai Mak, Kyle M. Shen⁎, “Direct observation of distinct minibands in moiré superlattices”, <em>**Science Advances**</em> 8, eabk1911 (2022)."
+        description: ""
+        image:
+
+
+  - year: 2021
+    lists:
+      - article: "Tingxin Li, Jiacheng Zhu, **Yanhao Tang**, Kenji Watanabe, Takashi Taniguchi, Veit Elser, Jie Shan⁎, Kin Fai Mak⁎, “Charge-order-enhanced capacitance in semiconductor moiré superlattices”, <em>**Nature Nanotechnology**</em> 16, 1068–1072 (2021)."
+        description:
+        image:
+
+      - article: "Chenhao Jin⁎, Zui Tao, Tingxin Li, Yang Xu, **Yanhao Tang**, Jiacheng Zhu, Song Liu, Kenji Watanabe, Takashi Taniguchi, James C. Hone, Liang Fu, Jie Shan⁎, Kin Fai Mak⁎, “Stripe phases in WSe2/WS2 moiré superlattices”, <em>**Nature Materials**</em> 20, 940–944 (2021)."
+        description:
+        image:
+
+before_zju:
+
+  - year: 2017-2021
+    lists:
+      - article: "**Yanhao Tang**, Jie Gu, Song Liu, Kenji Watanabe, Kin Fai Mak⁎, Jie Shan⁎, “Tuning layer-hybridized moiré excitons by the quantum-confined Stark effect,” <em>**Nature Nanotechnology**</em> 16, 52–57 (2021)."
+        description:
+        image:
+
+      - article: "Yang Xu, Connor Horn, Jiacheng Zhu, **Yanhao Tang**, Liguo Ma, Lizhong Li, Song Liu, Kenji Watanabe, Takashi Taniguchi, James C. Hone, Jie Shan⁎, Kin Fai Mak⁎, “Creation of moiré bands in a monolayer semiconductor by spatially periodic dielectric screening”, <em>**Nature Materials**</em> 20, 645–649 (2021)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**, Lizhong Li, Tingxin Li, Yang Xu, Song Liu, Katayun Barmak, Kenji Watanabe, Takashi Taniguchi, Allan H MacDonald, Jie Shan⁎, Kin Fai Mak⁎, “Simulation of Hubbard model physics in WSe2/WS2 moiré superlattices,” <em>**Nature**</em>, 579, 353–358 (2020)."
+        description:
+        image:
+
+      - article: "Poulami Dutta†, **Yanhao Tang**†, Chenjia Mi†, Mersedeh Saniepay†, John A. McGuire⁎, and Rémi Beaulac⁎, “Ultrafast hole extraction from photoexcited colloidal CdSe quantum dots coupled to nitroxide free radicals,” <em>**J. Chem. Phys.**</em>, 151, 174706 (2019)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**⁎, Kin Fai Mak, Jie Shan, “Long valley lifetime of dark excitons in single-layer WSe2,” <em>**Nature Communications**</em>, 10, 4047 (2019)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**⁎, Kin Fai Mak⁎, “2D materials for silicon photonics,” (news and views) <em>**Nature Nanotechnology**</em>, 12, 1121 (2017)."
+        description:
+        image:
+
+
+  - year: 2011-2017
+    lists:
+
+      - article: "**Yanhao Tang**, Krishna C. Mandal, John A. McGuire⁎, Chih-Wei Lai⁎, “Layer-and Frequency-Dependent Second Harmonic Generation in Reflection from GaSe Atomic Crystals,” <em>**Phys. Rev. B**</em>, 94, 125302 (2016)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**, Wei Xie, Krishna C. Mandal, John A. McGuire⁎, Chih-Wei Lai⁎, “Exciton Spin Dynamics in GaSe,” <em>**J. Appl. Phys.**</em>, 118, 113103 (2015)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**, Wei Xie, Krishna C. Mandal, John A. McGuire, Chih-Wei Lai⁎, “Linearly Polarized Remote-Edge Luminescence in GaSe Nanoslabs,” <em>**Phys. Rev. Appl.**</em>, 4, 034008 (2015)."
+        description:
+        image:
+
+      - article: "**Yanhao Tang**, Wei Xie, Krishna C. Mandal, John A. McGuire, Chih-Wei Lai⁎, “Optical and spin polarization dynamics in GaSe nanoslabs,” <em>**Phys. Rev. B**</em>, 91,195429 (2015)."
+        description:
+        image:

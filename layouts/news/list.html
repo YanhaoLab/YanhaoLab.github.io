@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $news := .Site.Data.news }}
+    <section  class="home-section hs-research-news  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+
+        <ul class="home-news-list-wrap" style="padding: 5rem;" >
+            {{ range $index, $item := $news }}
+                <li> <strong>{{ $item.date }}:</strong> {{ $item.title | markdownify | emojify | safeHTML }}</li>
+            {{ end }}
+
+        </ul>
+    </section>
+
+
+{{ end }}

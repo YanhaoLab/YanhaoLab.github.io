@@ -1,0 +1,19 @@
+###
+
+
+baseURL: "https://YanhaoLab.github.io/"
+languageCode: "en-us"
+title: "Tang's Lab"
+    
+    
+    
+    
+############################ Markup ##############################
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+

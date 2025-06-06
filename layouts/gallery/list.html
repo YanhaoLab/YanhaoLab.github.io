@@ -1,0 +1,131 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $gallery := .Site.Data.gallery }}
+    <section  class="home-section hs-research-news  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+
+        <div class="container page-gallery">
+
+            <div class="sub2-title">Activities</div>
+            <div class="row">
+
+
+                {{ range $index, $item :=  $gallery.activities }}
+
+                    <div class="gallery-item col-12 col-md-6">
+                        <img style="width: 100%;" src="{{ $item.img | relLangURL  }}"/>
+                        <p>{{ $item.title }}</p>
+                    </div>
+
+                {{ end }}
+
+            </div>
+
+
+            <div class="sub2-title">Facilities</div>
+            <div class="sub2-title2">Optical Cryogenics</div>
+
+            <div class="row">
+
+
+                {{ range $index, $item :=  $gallery.facilities.optical_cryogenics }}
+
+                    <div class="row">
+                        {{ range $index, $item2 :=  $item.images }}
+
+                            <div class="gallery-item col-12 col-md-4">
+                                <img style="width: 100%;" src="{{ $item2.img | relLangURL  }}"/>
+                                <p>{{ $item2.title }}</p>
+                            </div>
+
+                        {{ end }}
+                    </div>
+                    <div class="col-12 g-img-name">{{ $item.title }}</div>
+                {{ end }}
+
+            </div>
+
+            <div class="row">
+                <div class="row">
+                    {{ range $index, $item :=  $gallery.facilities.optical_cryogenics2.images }}
+
+                        <div class="gallery-item col-12 col-md-6">
+                            <img style="width: 100%;" src="{{ $item.img | relLangURL  }}"/>
+                            <p>{{ $item.title }}</p>
+                        </div>
+
+                    {{ end }}
+                </div>
+                <div class="col-12 g-img-name">{{ $gallery.facilities.optical_cryogenics2.title }}</div>
+            </div>
+
+
+            <div class="sub2-title">Hydrostatic pressure</div>
+            <div class="row">
+
+
+                <div class="row">
+                    {{ range $index, $item :=  $gallery.hydrostatic_pressure.images }}
+
+                        <div class="gallery-item col-12 col-md-4">
+                            <img style="width: 100%;" src="{{ $item.img | relLangURL  }}"/>
+                            <p>{{ $item.title }}</p>
+                        </div>
+
+                    {{ end }}
+                </div>
+                <div class="col-12 g-img-name">{{ $gallery.hydrostatic_pressure.title }}</div>
+
+            </div>
+
+
+
+            <div class="sub2-title">Laser</div>
+            <div class="row">
+
+
+                <div class="row">
+                    {{ range $index, $item :=  $gallery.laser.images }}
+
+                        <div class="gallery-item col-12 col-md-4">
+                            <img style="width: 100%;" src="{{ $item.img | relLangURL  }}"/>
+                            <p>{{ $item.title }}</p>
+                        </div>
+
+                    {{ end }}
+                </div>
+                {{/*<div class="g-img-name">{{ $gallery.facilities.laser.title }}</div>*/}}
+
+            </div>
+
+
+
+
+            <div class="sub2-title">Sample fabrication ＆ characterization</div>
+            <div class="row">
+
+
+                {{ range $index, $item :=  $gallery.sfc.images }}
+
+                    <div class="gallery-item col-12 col-md-6">
+                        <img style="width: 100%;" src="{{ $item.img | relLangURL  }}"/>
+                        <p>{{ $item.title }}</p>
+                    </div>
+
+                {{ end }}
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+{{ end }}

@@ -1,0 +1,82 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $news := .Site.Data.news }}
+    <section  class="home-section page-research  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+
+        <div class="container page-members">
+            <div class="row" style="padding: 2.5rem 0; ">
+
+                <div class="col-12 col-md-3">
+                    <img style="width: 100%;" src="{{ .Params.yang_hao_tang.image | relLangURL  }}"/>
+                    <div class="name-line">PI</div>
+                    <div class="name-line">{{ .Params.yang_hao_tang.name }}</div>
+                    <div class="contact-line">
+                        <p>📫: {{ .Params.yang_hao_tang.email }}</p>
+                        <p>🏢: {{ .Params.yang_hao_tang.address }}</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="intro">
+                        {{ .Params.yang_hao_tang.intro | markdownify | safeHTML }}
+                    </div>
+                    <div class="education">
+                        <h2>🌍 Education and Work Experience</h2>
+                        <ul>
+                            {{ range $index, $item := .Params.yang_hao_tang.education }}
+                                <li> {{ $item | markdownify | emojify | safeHTML }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <div class="ed-read-more">
+                        <a href="{{ .Params.yang_hao_tang.more_link }}" class="btn btn-link btn-outline-info">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="current-members" style="padding: 2.5rem 0; ">
+                <div><h2>Current members:</h2></div>
+                <div class="row">
+
+                    {{ $current_members :=  sort .Params.current_members "sort" "asc" }}
+
+                    {{ range $index, $item := $current_members }}
+
+                        <div class="person-item col-12 col-md-3">
+                            <img style="width: 100%;" src="{{ $item.image | relLangURL  }}"/>
+                        </div>
+                        <div class="person-item col-12 col-md-3 name-desc">
+                            <div>
+                                <p>{{ $item.name }}</p>
+                                <p>{{ $item.role }}</p>
+                                {{ with $item.email }}<p>📫： {{ . }}</p>{{ end }}
+                            </div>
+                        </div>
+
+                    {{ end }}
+
+                </div>
+            </div>
+
+
+
+            <div style="padding: 2.5rem 0; ">
+                <div><h2>Alumni: </h2></div>
+                {{ range $index, $item := .Params.alumni }}
+
+                    <div class="alumni-line">{{ $item  }}</div>
+
+                {{ end }}
+            </div>
+            <div style="padding: 2.5rem 0; text-align: center; ">
+               <em>{{ .Params.slogan }}</em>
+            </div>
+
+
+        </div>
+    </section>
+
+
+{{ end }}

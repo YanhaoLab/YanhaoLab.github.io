@@ -1,0 +1,78 @@
+## gallery images
+
+activities:
+  - img: images/gallery/act1.jpg
+    title: 2025 Ningbo Dongqian Lake Tour
+
+  - img: images/gallery/act2.jpg
+    title: 2024 Autumn Outdoor Activities at Wuchao Mountain ( with Prof. Liguo Ma's Group)
+
+  - img: images/gallery/act3.jpg
+    title: "2022 Autumn Tour of Fenghuang Mountain in 2022: Wan Song Academy - Fenghuang Pavilion - Leifeng Pagoda"
+
+  - img: images/gallery/act4.jpg
+    title: "2021 Autumn Outing : Ten Miles of Lingdang - From Shangtianzhu to Jiuxi"
+
+facilities:
+  optical_cryogenics:
+    - title: "Low-vibrational He-free optical cryostat #1: 2.5 K, >5 GPa"
+      images:
+        - img: images/gallery/fa1.jpg
+          title: ""
+        - img: images/gallery/fa2.jpg
+          title: ""
+        - img: images/gallery/fa3.jpg
+          title: ""
+
+    - title: "Low-vibrational He-free optical cryostat #2: 3 K, 9 Telsa"
+      images:
+        - img: images/gallery/fa4.jpg
+          title: ""
+        - img: images/gallery/fa5.jpg
+          title: ""
+        - img: images/gallery/fa6.jpg
+          title: ""
+
+  optical_cryogenics2:
+    title: "Low-vibrational He-free optical cryostat #3: 10 K, ultrafast spectroscopy"
+    images:
+      - img: images/gallery/fa7.jpg
+        title: ""
+      - img: images/gallery/fa8.jpg
+        title: ""
+
+hydrostatic_pressure:
+  title:
+  images:
+    - img: images/gallery/hp1.jpg
+      title: ""
+    - img: images/gallery/hp2.jpg
+      title: ""
+    - img: images/gallery/hp3.jpg
+      title: ""
+
+
+laser:
+  title:
+  images:
+    - img: images/gallery/laser1.jpg
+      title: "80 MHz Ti:Sapphire ultrafast laser system"
+    - img: images/gallery/laser2.jpg
+      title: "200 KHz ultrafast laser system (used in collaboration with Prof. Dawei Wang)"
+    - img: images/gallery/laser3.jpg
+      title: "CW lasers"
+
+
+sfc:
+  title:
+  images:
+    - img: images/gallery/sfc1.jpg
+      title: "Transfer - stacking platform"
+    - img: images/gallery/sfc2.jpg
+      title: "Optical microscopy of the 2D heterostructure"
+    - img: images/gallery/sfc3.jpg
+      title: "AFM"
+    - img: images/gallery/sfc4.jpg
+      title: "The AFM image of a hBN flake"
+
+

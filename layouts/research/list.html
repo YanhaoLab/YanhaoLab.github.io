@@ -1,0 +1,63 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $news := .Site.Data.news }}
+    <section  class="home-section page-research  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+
+        <div class="container">
+            <div class="row" style="padding: 2.5rem 0; ">
+            <div class="col-12 col-md-6">
+                <div style="font-size: 1.8rem;"><span style="    color: #3D9BE9;">2D Quantum Materials</span> under <span style="    color: #FE1010;"> extreme conditions</span></div>
+                <img style="width: 100%;" src="{{ "images/research/r1.png" | relLangURL  }}"/>
+            </div>
+            <div class="col-12 col-md-6">
+                <p style="padding-bottom: 1rem;">We are interested in exploring exotic states and the control of these states in <strong>2D quantum materials under extreme conditions</strong>, via advanced techniques such as <strong>ultrafast pump probe, low-frequency inelastic scattering and nonlinear optics</strong>, as well as multi-field control methods (e.g., <strong>pressure, magnetic/electric field and twisting</strong>), which likely lead to to new matter states and new applications.</p>
+                <p>We refer the 2D quantum materials to the materials based on van der Waals materials, particularly <strong>moire superlattices</strong>. The van der Waals materials are layered materials, which can be exfoliated to atomically thin layers with high sample quality maintained. From bulk to atomically thin, the physics properties such as electronic band structure can be changed significantly, as well as the ability of controlling the matter, which offer scientists a great platform to explore 2D physics. Recently, the development of 2D heterostructure techniques has offered a powerful knob to furthur engineer the physical properties of the materials, and the systems that have not existed before can be easily created. We have three main directions for exploring the 2D heterostructures.</p>
+            </div>
+            <div class="col-12 research-article">
+
+                <ul>
+                    <li>
+                        <h2>New 2D heterostructures</h2>
+                        Two-dimensional materials have a rich material system, including insulators, semiconductors, metals, semimetals, and various exotic states, such as superconductors, ferromagnets, antiferromagnets, charge density waves, topological nontrivial states, and so on. How to couple these materials together to create a more interesting system or state of matter is a subject that we are very interested in.
+
+                    </li>
+                    
+                    
+                       <li>
+                        <h2>Novel tuning knobs</h2>
+                           The development of tuning knobs provides more dimensions for the discovery of new physics and new phenomena. We will not only develop traditional control methods such as low temperature, magnetic field and electric field, but also explore novel control mechanisms such as twisting, hydrostatic pressure, and ultrafast optical manipulation. The final goal is to develop a platform combining all the aforementioned knobs.
+
+                    </li>
+                    
+                    
+                       <li>
+                        <h2>Advanced detection methods</h2>
+                           Based on technologies such as ultrafast spectroscopy, magneto-optical spectroscopy, single-photon detection and low-frequency inelastic scattering, we will develop new problem-oriented detection methods.
+
+                    </li>
+                    
+                    
+                    
+                </ul>
+                
+
+
+                
+
+                
+
+
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+{{ end }}

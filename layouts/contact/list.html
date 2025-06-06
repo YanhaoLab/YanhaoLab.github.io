@@ -1,0 +1,18 @@
+{{ define "main" }}
+    {{/*{{ $news := first 5 .Site.Data.news }}*/}}
+    {{ $news := .Site.Data.news }}
+    <section  class="home-section hs-research-news  container-fluid ">
+        {{ partial "common/subtitle-section.html" . }}
+
+
+        <div class="container page-contact-us">
+
+            {{ .Content }}
+
+        </div>
+
+
+    </section>
+
+
+{{ end }}

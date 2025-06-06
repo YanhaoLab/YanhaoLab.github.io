@@ -1,0 +1,12 @@
+
+{{ $news := first 5 .Site.Data.news }}
+
+
+<ul class="home-news-list-wrap" >
+    <h2 style="font-weight: normal;padding-bottom: 1rem;">Latest news</h2>
+    {{ range $index, $item := $news }}
+    <li> <strong>{{ $item.date }}:</strong> {{ $item.title | markdownify | emojify | safeHTML }}</li>
+    {{ end }}
+
+</ul>
+<div><a href="/news">Read more &gt;&gt;</a></div>
