@@ -53,7 +53,7 @@ h3.article-title a:hover, a:hover {
   font-family: "oswald";
   font-weight: normal;
   font-size: 2rem;
-  margin-left: 1rem !important;
+  //margin-left: 1rem !important;
 }
 
 
@@ -311,6 +311,21 @@ h3.article-title a:hover, a:hover {
 
 }
 
+
+.carousel {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+}
+
+.page-home {
+  .hero-media {
+    margin-top: 3.5rem;
+  }
+}
+
 .home-news-list-wrap {
   li {
     list-style: disc;
@@ -482,13 +497,22 @@ h3.article-title a:hover, a:hover {
   }
 }
 
+.top_bar {
+  margin: 1rem;
+}
+.navbar-light .navbar-toggler {
+  color: #2e2e2e;
+}
+
+
 
 
 //手机
 @media (max-width: 478px) {
-  .universal-wrapper {
-
+  .top_bar {
+    margin: 0rem;
   }
+
 
   .navbar-brand {
     margin: 0 auto;

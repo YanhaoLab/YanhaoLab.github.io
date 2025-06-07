@@ -4,7 +4,7 @@
   {{ partial "common/subtitle-section.html" . }}
 
 
-  <div class="container">
+  <div class="container page-home">
 
     <div class="home-main-text" style="font-size: 1.3rem; padding-bottom: 4rem;">
 
@@ -19,9 +19,24 @@
 
 
     <div class="row">
-      <div class="col-12 col-md-6">
+      {{/*<div class="col-12 col-md-6">
         <img style="width: 100%;margin-top: 3.5rem;" src="{{ "images/news/news-home.jpg" | relLangURL  }}"/>
+      </div>*/}}
+
+
+      {{/*
+      jQuery轮播效果（Carousell）， boostrap 4.6.1  实现
+      注意 prev nextl 两个button的href id 和 setction id要一致
+      https://blog.csdn.net/chenmo2001/article/details/117674446
+      */}}
+      {{ $heroBlock := .Params.heroBlock }}
+      {{ $slider_hash_id := "hero_sliders" }}
+      {{ $slider_args := dict "wcPage" $ "wcBlock" .Params.heroSlideBlock "wcIdentifier" $slider_hash_id }}
+      <div class="col-12 col-md-6 hero-media carousel slide "  data-ride="carousel" id="{{ $slider_hash_id }}">
+        {{ partial "func/slider.html" $slider_args }}
       </div>
+
+
 
       <div class="col-12  col-md-6">
         {{ partial "common/home-news.html" . }}
