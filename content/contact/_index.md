@@ -2,18 +2,12 @@
 title: "Contact us"
 subtitle_image: "images/subtitle/contact.jpg"
 
-
- 
-
-
-
-
 ---
 
 Our group explores novel quantum phenomena in 2D materials, bridging optics, condensed matter physics, and quantum device engineering. We invite motivated postdocs, graduates and undergraduates to join our collaborative team!  ​
 
 ## Why join us?
-- Opportunities for high-impact journals, such as Science, Nature and its series.
+- Opportunities for high-impact journals, such as <em><b>Science</b></em>, <em><b>Nature</b></em> and its series.
 - Play with advanced techniques, like plentiful optical spectroscopies, cryogenics, and microdevice fabrication.
 - Enjoy novel and impactful research in a collaborative environment.
 
