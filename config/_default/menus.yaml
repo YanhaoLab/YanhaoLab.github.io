@@ -17,11 +17,11 @@ main:
     url: research
     weight: 30
 
-  - name: Members
+  - name: Member
     url: member
     weight: 40
 
-  - name: Publications
+  - name: Publication
     url: publication
     weight: 50
 
