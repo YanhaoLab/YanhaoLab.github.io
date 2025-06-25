@@ -1,5 +1,5 @@
 ---
-title: "Members"
+title: "Member"
 subtitle_image: "images/subtitle/member.jpg"
 
 
