@@ -3,8 +3,6 @@ title: "Member"
 subtitle_image: "images/subtitle/member.jpg"
 
 
-
-
 yang_hao_tang:
   name: Yanhao Tang 汤衍浩
   image: images/members/yanhao-tang.jpg
