@@ -12,19 +12,17 @@ recent_years:
     lists:
       - article: "**Zhexu Shan**†, **Wenjian Su**†, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Yuanfeng Xu⁎, **Yanhao Tang**⁎, “Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices”, <em>**Science**</em> (accepted in principle), arXiv:2509.16511(2025)."
         description: "We observed a novel collective spin excitation in TMD moire materials, named chiral spin mode, in which transitions occur between SOC-split states with opposite chirality and many-body interactions lead to collective effects."
-
+        image: "images/publications/p25-2.png"
       
       - article: "**Chenran Xu**†, **Chen Xu**†, Jichen Zhou, Zhexu Shan, Wenjian Su, Wenbing Li, Xingqi Xu, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Da-Wei Wang and **Yanhao Tang**⁎, “Gate-tunable hot electron extraction in a two-dimensional semiconductor heterojunction”, <em>**Nano Letters**</em> (accepted), arXiv:2504.05859 (2025)."
         description: "We demonstrated the exciton-electron interaction as a novel strategy of harvesting excess energy of hot carriers in TMD heterostructure."
         image: "images/publications/p25-1.png"
 
-
   - year: 2023
     lists:
       - article: "**Yanhao Tang**, “Exotic states in moiré superlattices of twisted semiconducting transition metal dichalcogenides”, Acta Phys. Sin., 2023, 72(2): 027802."
-        description: "A review about the electronic correlated states in TMDs moire materials."
+        description: "A mini-review about the electronic correlated states in TMDs moire materials."
         image:
-
 
   - year: 2022
     lists:
