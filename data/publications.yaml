@@ -11,30 +11,30 @@ recent_years:
   - year: 2025
     lists:
       - article: "**Zhexu Shan**†, **Wenjian Su**†, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Yuanfeng Xu⁎, **Yanhao Tang**⁎, “Gate-tunable chiral spin mode in WSe2/WS2 moiré superlattices”, <em>**Science**</em> (accepted in principle), arXiv:2509.16511(2025)."
-        description: "**--**We observed a novel collective spin excitation in TMD moire materials, named chiral spin mode, in which transitions occur between SOC-split states with opposite chirality and many-body interactions lead to collective effects."
+        description: "---We observed a novel collective spin excitation in TMD moire materials, named chiral spin mode, in which transitions occur between SOC-split states with opposite chirality and many-body interactions lead to collective effects."
        # image: "images/publications/p25-2.png"
       #  image_height: 200px
       #  image_width: 400px
        # scale_type: "fitCenter" # Example of how you might define scaling
       
       - article: "**Chenran Xu**†, **Chen Xu**†, Jichen Zhou, Zhexu Shan, Wenjian Su, Wenbing Li, Xingqi Xu, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Da-Wei Wang and **Yanhao Tang**⁎, “Gate-tunable hot electron extraction in a two-dimensional semiconductor heterojunction”, <em>**Nano Letters**</em> (accepted), arXiv:2504.05859 (2025)."
-        description: "**—— **We demonstrated the exciton-electron interaction as a novel strategy of harvesting excess energy of hot carriers in TMD heterostructure."
+        description: "---We demonstrated the exciton-electron interaction as a novel strategy of harvesting excess energy of hot carriers in TMD heterostructure."
         #image: "images/publications/p25-1.png"
 
   - year: 2023
     lists:
       - article: "**Yanhao Tang**, “Exotic states in moiré superlattices of twisted semiconducting transition metal dichalcogenides”, Acta Phys. Sin., 2023, 72(2): 027802."
-        description: "A mini-review about the electronic correlated states in TMDs moire materials."
+        description: "---A mini-review about the electronic correlated states in TMDs moire materials."
         #image:
 
   - year: 2022
     lists:
       - article: "**Yanhao Tang**, Kaixiang Su , Lizhong Li, Yang Xu, Song Liu, Kenji Watanabe, Takashi Taniguchi, James Hone, Chao-Ming Jian, Cenke Xu, Kin Fai Mak, Jie Shan, “Evidence of frustrated magnetic interactions in a Wigner-Mott insulator”, <em>**Nature Nanotechnology**</em> (accepted), arXiv:2204.08148 (2022)."
-        description: "We observed strongly suppressed antiferromagnetic interaction at 2/3 filling of moire superlattices. "
+        description: "---We observed strongly suppressed antiferromagnetic interaction at 2/3 filling of moire superlattices. "
         #image: "images/publications/p22-1.png"
 
       - article: "**Yanhao Tang**†, ⁎, Jie Gu†, Song Liu, Kenji Watanabe, Takashi Taniguchi, James C Hone, Kin Fai Mak⁎, Jie Shan⁎, “Dielectric catastrophe at the Wigner-Mott transition in a moiré superlattice”, <em>**Nature Communications**</em>, 13, 4271 (2022)."
-        description: "We achieved continuous U/t driven Wigner transitions in moire superlattices via external electric field. "
+        description: "---We achieved continuous U/t driven Wigner transitions in moire superlattices via external electric field. "
         #image: "images/publications/p22-2.png"
 
       - article: "Saien Xie⁎, Brendan D. Faeth, **Yanhao Tang**, Lizhong Li, Eli Gerber, Christopher T. Parzyck, Debanjan Chowdhury, Ya-Hui Zhang, Christopher Jozwiak, Aaron Bostwick, Eli Rotenberg, Eun-Ah, Kim, Jie Shan, Kin Fai Mak, Kyle M. Shen⁎, “Direct observation of distinct minibands in moiré superlattices”, <em>**Science Advances**</em> 8, eabk1911 (2022)."
