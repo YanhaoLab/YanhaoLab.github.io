@@ -15,7 +15,7 @@ recent_years:
         image: "images/publications/p25-2.png"
         image_height: 200px
         image_width: 400px
-        scale_type: "fitCenter" # Example of how you might define scaling
+       # scale_type: "fitCenter" # Example of how you might define scaling
       
       - article: "**Chenran Xu**†, **Chen Xu**†, Jichen Zhou, Zhexu Shan, Wenjian Su, Wenbing Li, Xingqi Xu, Kenji Watanabe, Takashi Taniguchi, Shiyao Zhu, Da-Wei Wang and **Yanhao Tang**⁎, “Gate-tunable hot electron extraction in a two-dimensional semiconductor heterojunction”, <em>**Nano Letters**</em> (accepted), arXiv:2504.05859 (2025)."
         description: "We demonstrated the exciton-electron interaction as a novel strategy of harvesting excess energy of hot carriers in TMD heterostructure."
