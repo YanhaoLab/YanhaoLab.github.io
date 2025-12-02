@@ -30,7 +30,7 @@ recent_years:
   - year: 2022
     lists:
       - article: "**Yanhao Tang**, Kaixiang Su , Lizhong Li, Yang Xu, Song Liu, Kenji Watanabe, Takashi Taniguchi, James Hone, Chao-Ming Jian, Cenke Xu, Kin Fai Mak, Jie Shan, “Evidence of frustrated magnetic interactions in a Wigner-Mott insulator”, <em>**Nature Nanotechnology**</em> (accepted), arXiv:2204.08148 (2022)."
-        description: "**We observed strongly suppressed antiferromagnetic interaction at 2/3 filling of moire superlattices**. "
+        description: "We observed strongly suppressed antiferromagnetic interaction at 2/3 filling of moire superlattices. "
         #image: "images/publications/p22-1.png"
 
       - article: "**Yanhao Tang**†, ⁎, Jie Gu†, Song Liu, Kenji Watanabe, Takashi Taniguchi, James C Hone, Kin Fai Mak⁎, Jie Shan⁎, “Dielectric catastrophe at the Wigner-Mott transition in a moiré superlattice”, <em>**Nature Communications**</em>, 13, 4271 (2022)."
