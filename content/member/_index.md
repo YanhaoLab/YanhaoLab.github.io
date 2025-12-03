@@ -27,86 +27,110 @@ yang_hao_tang:
     
 
 
-current_members:
-  
-  - name: Chenran Xu 徐晨燃
-    role: Co-trained with Prof. Dawei Wang（2021-） Ph.D, Tongji University
-    email: chenran@zju.edu.cn
-    image:  images/members/chenran-xu.png
-    sort:  10
-    
+current_members:   
 
   - name:  Zhexu Shan 单哲旭 (Enrolled in 2021)
     role: Bachelor, Shanxi University
     email: zxshan@zju.edu.cn
     image:  images/members/zhexu-shan.png
-    sort:  20
+    sort:  10
     
 
   - name: Wenjian Su 苏文健 (Enrolled in 2021)
     role: Bachelor, Zhejiang University
     email: 22136014@zju.edu.cn
     image:  images/members/wenjian-su.png
-    sort:  30
+    sort:  20
     
 
   - name: Wenbing Li 李文兵 (Enrolled in 2022)
     role: Bachelor, Zhejiang University
     email: 22245018@zju.edu.cn
     image:  images/members/wenbing-li.jpg
-    sort:  40
+    sort:  30
     
 
   - name: Chen Xu 徐忱 (Enrolled in 2022)
     role: Bachelor, Northeast University
     email: 12245026@zju.edu.cn
     image:  images/members/chen-xu.png
-    sort:  50
+    sort:  40
     
-
 
   - name: Tianhao Yue 岳天豪 (Enrolled in 2022)
     role: Bachelor, Zhejiang University
     email: 
     image:  images/members/tianhao-yue.png
-    sort:  60
+    sort:  50
+
     
   - name: Jichen Zhou 周纪晨 (Enrolled in 2023)
     role: Bachelor, Jiangxi Normal University
     email: 
     image:  images/members/jichen-zhou.png
-    sort: 70
+    sort: 60
     
-
-
-
-  - name: Jing Xu 徐菁 (Enrolled in 2024)
-    role: Bachelor, Minzu University of China
-    email: 
-    image:  images/members/jing-xu.png
-    sort: 80
-    
-
 
   - name: Yue Chen 陈悦 (Enrolled in 2024)
     role: Bachelor, Chongqing University
     email: 
     image:  images/members/yue-chen.png
+    sort: 70
+
+  - name: Wenzheng Wang 王文正 (Enrolled in 2025)
+    role: Bachelor, Northwest University
+    email: 
+  #  image:  images/members/yue-chen.png
+    sort: 80
+
+  - name: Shuwen Cai 蔡书文 (Class of 2022)
+    role: Undergraduate, Zhejiang University
+    email: 
+  #  image:  images/members/yue-chen.png
     sort: 90
-    
+
+  - name: Yichen Tang 唐亦琛 (Class of 2022)
+    role: Undergraduate, Zhejiang University
+    email: 
+  #  image:  images/members/yue-chen.png
+    sort: 100
+
   - name: WenKai Zhao 赵文楷（Class of 2022）
     role: Undergraduate，Zhejiang University
     email: 
     image:  images/members/wenkai-zhao.jpg
-    sort: 100
+    sort: 110
+
+  - name: Zhongyu Chen 陈中裕（Class of 2023）
+    role: Undergraduate，Zhejiang University
+    email: 
+   # image:  images/members/wenkai-zhao.jpg
+    sort: 120
     
+  - name: Jiuyi Sun 孙久弈（Class of 2024）
+    role: Undergraduate，Zhejiang University
+    email: 
+   # image:  images/members/wenkai-zhao.jpg
+    sort: 130
 
-alumni:
-  - "Tianhao Yue (Undergraduate, Class of 2019, 2022 -- 2023, admitted to our group as a PhD candidate)"
+  - name: Guozheng Xie 谢国政（Class of 2024）
+    role: Undergraduate，Zhejiang University
+    email: 
+   # image:  images/members/wenkai-zhao.jpg
+    sort: 140
 
-  - "Xinyu Feng (Bachelor's degree, Class of 2018, 2021 -- 2022)"
+Alumni:
+Grads & Postdoc:
+  - "Jing Xu (Graduate, 2024-2025)"
+    
+  - "Chenran Xu (Postdoc, 2021-2025), now at School of Physics, Hangzhou Normal Univeristy (杭州师范)"
 
-  - "Jing Yao (Bachelor's degree, Class of 2017, 2021 -- 2022)"
+Undergrads:
+  - "Tianhao Yue (Undergraduate, Class of 2019, 2022 -- 2023), join our group as a PhD candidate"
+
+  - "Xinyu Feng (Undergraduate, Class of 2018, 2021 -- 2022)"
+
+  - "Jing Yao (Undergraduate, Class of 2017, 2021 -- 2022)"
 
 
 slogan: Together, we explore, discover, and grow—welcome to our research family!
