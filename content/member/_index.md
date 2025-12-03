@@ -120,7 +120,7 @@ current_members:
     sort: 140
 
 Alumni:
---Grads & Postdoc
+--Grads&Postdoc
   - "Jing Xu (Graduate, 2024-2025)"
   - "Chenran Xu (Postdoc, 2021-2025), now at School of Physics, Hangzhou Normal Univeristy (杭州师范)"
 
