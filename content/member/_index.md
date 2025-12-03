@@ -119,7 +119,7 @@ current_members:
    # image:  images/members/wenkai-zhao.jpg
     sort: 140
 
-alumni:
+alumni(grads):
 #alumni_categories:
 #grads&postdocs:
   - "Jing Xu (Graduate, 2024-2025)"
