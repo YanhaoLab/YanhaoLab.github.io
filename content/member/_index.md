@@ -119,13 +119,13 @@ current_members:
    # image:  images/members/wenkai-zhao.jpg
     sort: 140
 
-#Alumni:
-alumni_categories:
-grads&postdocs:
+Alumni:
+#alumni_categories:
+#grads&postdocs:
   - "Jing Xu (Graduate, 2024-2025)"
   - "Chenran Xu (Postdoc, 2021-2025), now at School of Physics, Hangzhou Normal Univeristy (杭州师范)"
 
-undergrads:
+#undergrads:
   - "Tianhao Yue (Undergraduate, Class of 2019, 2022 -- 2023), join our group as a PhD candidate"
   - "Xinyu Feng (Undergraduate, Class of 2018, 2021 -- 2022)"
   - "Jing Yao (Undergraduate, Class of 2017, 2021 -- 2022)"
