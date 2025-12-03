@@ -120,11 +120,11 @@ current_members:
     sort: 140
 
 Alumni:
---Grads & Postdoc:
+--Grads & Postdoc
   - "Jing Xu (Graduate, 2024-2025)"
   - "Chenran Xu (Postdoc, 2021-2025), now at School of Physics, Hangzhou Normal Univeristy (杭州师范)"
 
---Undergrads:
+--Undergrads
   - "Tianhao Yue (Undergraduate, Class of 2019, 2022 -- 2023), join our group as a PhD candidate"
   - "Xinyu Feng (Undergraduate, Class of 2018, 2021 -- 2022)"
   - "Jing Yao (Undergraduate, Class of 2017, 2021 -- 2022)"
