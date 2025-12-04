@@ -86,13 +86,13 @@ current_members:
   - name: Shuwen Cai 蔡书文 (Class of 2022)
     role: Undergraduate, Zhejiang University, to be a grad in our group in 2026
     email: 
-  #  image:  images/members/yue-chen.png
+    image:  images/members/shuwen-cai.png
     sort: 90
 
   - name: Yichen Tang 唐亦琛 (Class of 2022)
     role: Undergraduate, Zhejiang University, to be a grad in our group in 2026
     email: 
-  #  image:  images/members/yue-chen.png
+    image:  images/members/yichen-tang.png
     sort: 100
 
   - name: WenKai Zhao 赵文楷（Class of 2022）
