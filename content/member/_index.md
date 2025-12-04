@@ -80,7 +80,7 @@ current_members:
   - name: Wenzheng Wang 王文正 (Enrolled in 2025)
     role: Bachelor, Northwest University
     email: 
-  #  image:  images/members/yue-chen.png
+    image:  images/members/wenzheng-wang.png
     sort: 80
 
   - name: Shuwen Cai 蔡书文 (Class of 2022)
